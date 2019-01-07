@@ -1,0 +1,43 @@
+html * {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+body {
+    margin: 3em;
+    background: black;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+.content {
+    align-self: center;
+}
+.image {
+    max-width: 75vw;
+}
+p {
+    font-size: 1em;
+    font-size: 2vw;
+}
+li {
+    font-size: 1.05em;
+    font-size: 2.2vw;
+}
+h1 {
+    font-size: 2em;
+    font-size: 5vw;
+}
+h3 {
+    font-size: 1.17em;
+    font-size: 2.5vw;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
