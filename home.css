@@ -3,8 +3,25 @@ html * {
     color: white;
 }
 body {
-    margin: 3em;
     background: black;
+}
+p {
+    font-size: 1em;
+}
+li {
+    font-size: 1.05em;
+}
+h1 {
+    font-size: 2em;
+}
+h2 {
+    font-size: 1.17em;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    border-radius: 1em;
 }
 
 .container {
@@ -12,32 +29,27 @@ body {
     height: 100%;
     display: flex;
     flex-direction: column;
+    font-size: 2rem;
 
 }
 .content {
     align-self: center;
 }
+.fact-box {
+    border-radius: 1em;
+    background-color: #444444;
+    padding: 1em;
+}
 .image {
     max-width: 75vw;
 }
-p {
-    font-size: 1em;
-    font-size: 2vw;
-}
-li {
-    font-size: 1.05em;
-    font-size: 2.2vw;
-}
-h1 {
-    font-size: 2em;
-    font-size: 5vw;
-}
-h2 {
-    font-size: 1.17em;
-    font-size: 2.5vw;
-}
-img {
-    max-width: 100%;
-    height: auto;
-    width: auto;
+
+@media only screen and (max-width: 650px) {
+    .image {
+        max-width: 100vw;
+        min-width: 100vw;
+    }
+    .container {
+        font-size: 1.5rem;
+    }
 }
